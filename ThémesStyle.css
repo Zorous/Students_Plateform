@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+body{
+    overflow-x:hidden;
+    
+  }
+          .iframes-container{
+            display: flex;
+            flex-wrap: wrap;
+            height: 50rem;
+            width: 70%;
+            background-color: #2a7a9c;
+            text-align: center;
+            padding-top: 5%;
+            overflow-y:scroll; 
+            
+                 
+        }
+
+        .imgframe{
+          margin: 0;
+          padding: 0;
+          width: 120px;
+          height: 220px;
+          zoom: 1.5;
+          
+
+        }
+        .temps{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-right: auto;
+            margin-left: auto;
+            width: fit-content;
+        }
+        h4,h3,h5{
+          color:#fff;    
+              }
+
+       .theme > * {
+        grid-area: 1/1;
+      }
+
+
+
+#théme00,#théme01,#théme02,#théme03,#théme04,#théme05,#théme06,#théme07,#théme08,#théme09,#théme010,#théme011,#théme012,#théme013,#théme014,#théme015,#théme016,#théme017,#théme018,#théme019,#théme020{
+  display: none;
+}   
+
+
+
+
+
+
+.show{
+  display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+ @media print {
+  .btn_print,header,#header,#nav-bar,.btn,.img-block,.cta-2,.footer,.fixed-btm-top{
+display:none;
+  }
+html,body,.container,.theme{margin:0 !important;padding:0 !important;overflow:hidden !important;}
+#bigContainer00,.grid-container,.container{
+  flex-grow:1;}
+.grid-container{
+  width: 100%;
+  height:100%;
+}
+#théme00{
+  background-color: white;
+  height: 100% !important;
+  width:100% !important;
+  flex-basis:100% !important;
+  position:fixed !important;
+  top: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  margin: 0 !important;
+  padding: 0px !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  zoom:115% !important;
+  border:0px !important;
+  outline:none !important;
+}
+
+}
+
+
+@page { size: auto;  margin: 0mm; }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #con1{
+    width:100%;
+  }
+  .iframes-container{
+    width:100%;
+  }
+}
